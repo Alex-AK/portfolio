@@ -2722,6 +2722,7 @@ ul.icons li .icon:before {
 
 ul.contact {
   margin: 3em 0 0 0;
+  padding-left: 3em;
 }
 
 ul.contact li {
@@ -3289,6 +3290,7 @@ button:disabled,
   line-height: 2.25em;
   text-align: center;
   width: 2.25em;
+  opacity: 0.8;
 }
 
 #banner h2 {
@@ -3698,6 +3700,7 @@ body.is-preload #banner p {
 .wrapper.spotlight .content {
   width: 100%;
   -ms-flex: 2;
+  margin: 0 30px;
 }
 
 .wrapper.spotlight:nth-child(2n - 1) .inner {
@@ -3953,6 +3956,7 @@ body.is-preload #banner p {
   padding: 2em 0 0 0;
   width: 100%;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 #footer .inner .copyright li {
