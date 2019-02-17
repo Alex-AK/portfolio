@@ -3099,6 +3099,12 @@ button:disabled,
   }
 }
 
+@media screen and (max-width: 480px) {
+  .card-buttons input {
+    width: 95px;
+  }
+}
+
 .card-buttons li {
   margin-right: 20px;
 }
@@ -3919,7 +3925,7 @@ body.is-preload #banner p {
   }
 
   .wrapper.spotlight .image {
-    margin: 0 0 1em 0 !important;
+    /* margin: 0 0 1em 0 !important; */
     max-width: 85%;
     width: 12em;
   }
