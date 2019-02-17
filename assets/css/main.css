@@ -2722,7 +2722,14 @@ ul.icons li .icon:before {
 
 ul.contact {
   margin: 3em 0 0 0;
-  padding-left: 3em;
+}
+
+/* here! */
+
+@media screen and (max-width: 736px) {
+  ul.contact {
+    padding-left: 0;
+  }
 }
 
 ul.contact li {
@@ -3142,7 +3149,7 @@ button:disabled,
   -webkit-transition: background-color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
-  background-color: rgba(53, 56, 73, 0.95);
+  background-color: #2d3142f3;
   height: 3.5em;
   left: 0;
   line-height: 3.5em;
@@ -3716,9 +3723,6 @@ body.is-preload #banner p {
   margin-bottom: 40px;
 }
 
-.skills div {
-}
-
 .skills h4 {
   font-size: 14px;
   margin-bottom: 5px;
@@ -3727,12 +3731,19 @@ body.is-preload #banner p {
 
 .skills p {
   margin: 0;
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 0.5px;
 }
 
-.left {
-  /* margin-left: 10px; */
+@media screen and (max-width: 650px) {
+  .skills {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .skills h4 {
+    margin-top: 20px;
+  }
 }
 
 .wrapper.spotlight:nth-child(2n - 1) .image {
@@ -3848,6 +3859,10 @@ body.is-preload #banner p {
     width: 100%;
   }
 
+  .inner-override {
+    padding: 3em 3em 1em 0em !important;
+  }
+
   .wrapper.spotlight .image {
     margin: 0 2em 2em 0;
     width: 32em;
@@ -3878,7 +3893,7 @@ body.is-preload #banner p {
   }
 
   .wrapper .inner {
-    padding: 2em 2em 0.1em 2em;
+    /* padding: 2em 2em 0.1em 2em; */
   }
 
   .wrapper.spotlight .inner {
