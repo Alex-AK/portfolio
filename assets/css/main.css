@@ -3101,7 +3101,8 @@ button:disabled,
 
 @media screen and (max-width: 480px) {
   .card-buttons input {
-    width: 95px;
+    width: 80px;
+    /* justify-content: space-between; */
   }
 }
 
@@ -3199,6 +3200,12 @@ button:disabled,
   border: 0;
   display: inline-block;
   padding: 0 1em;
+}
+
+@media screen and (max-width: 400px) {
+  #header nav a {
+    padding: 0 0.5em;
+  }
 }
 
 #header nav a:before {
@@ -3931,7 +3938,7 @@ body.is-preload #banner p {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 300px) {
   .wrapper .inner {
     padding: 2em 1.5em 0.1em 1.5em;
   }
