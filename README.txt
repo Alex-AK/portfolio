@@ -1,4 +1,7 @@
-Portfolio for Alex King | Full Stack Developer
+# Portfolio for Alex King | Full Stack Developer
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7e63ae47-2801-485c-9b48-0a936dde5bdf/deploy-status)](https://app.netlify.com/sites/alex-ak/deploys)
+
 Built with HTML5 | CSS3 | jQuery 
 
 Credits:
